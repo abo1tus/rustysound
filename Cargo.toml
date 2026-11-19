@@ -1,6 +1,10 @@
-[package]
-name = "rustysound"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+resolver = "2"
+members = [
+    "crates/app-core",
+    "crates/dsp",
+    "crates/audio-engine",
+    "crates/win-routing",
+    "crates/app-cli",
+    "crates/app-ui",
+]

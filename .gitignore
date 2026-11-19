@@ -1,1 +1,5 @@
 /target
+**/*.rs.bk
+*.pdb
+/logs
+crates/app-ui/gen
